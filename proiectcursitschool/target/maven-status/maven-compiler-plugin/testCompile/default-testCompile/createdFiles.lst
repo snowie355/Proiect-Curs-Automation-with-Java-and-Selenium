@@ -1,0 +1,7 @@
+testeautomate\TestNavigateToCategory.class
+testeautomate\FinishOrder.class
+testeautomate\TestLogin.class
+reutilizabile\BasicWebDriver.class
+ApiTests\APITest.class
+reutilizabile\ReportGenerator.class
+testeautomate\FirstProductAddToCart.class

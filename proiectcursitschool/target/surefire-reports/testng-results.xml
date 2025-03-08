@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-08T13:41:16 EET" name="TestSuite" finished-at="2025-03-08T13:41:50 EET" duration-ms="34492">
+    <groups>
+    </groups>
+    <test started-at="2025-03-08T13:41:16 EET" name="TestCases" finished-at="2025-03-08T13:41:50 EET" duration-ms="34492">
+      <class name="testeautomate.FirstProductAddToCart">
+        <test-method signature="testAddFirstProductToCart()[pri:11, instance:testeautomate.FirstProductAddToCart@9f116cc]" started-at="2025-03-08T13:41:40 EET" name="testAddFirstProductToCart" finished-at="2025-03-08T13:41:45 EET" depends-on-methods="testeautomate.TestNavigateToCategory.testNavigateToCategory" duration-ms="5279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddFirstProductToCart -->
+      </class> <!-- testeautomate.FirstProductAddToCart -->
+      <class name="testeautomate.TestLogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testeautomate.TestLogin@3e58a80e]" started-at="2025-03-08T13:41:14 EET" name="setup" finished-at="2025-03-08T13:41:16 EET" duration-ms="1896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testClickContButton()[pri:1, instance:testeautomate.TestLogin@3e58a80e]" started-at="2025-03-08T13:41:16 EET" name="testClickContButton" finished-at="2025-03-08T13:41:17 EET" duration-ms="1182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickContButton -->
+        <test-method signature="testEnterCredentials()[pri:2, instance:testeautomate.TestLogin@3e58a80e]" started-at="2025-03-08T13:41:17 EET" name="testEnterCredentials" finished-at="2025-03-08T13:41:26 EET" depends-on-methods="testeautomate.TestLogin.testClickContButton" duration-ms="9263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnterCredentials -->
+        <test-method signature="testClickLoginButton()[pri:3, instance:testeautomate.TestLogin@3e58a80e]" started-at="2025-03-08T13:41:26 EET" name="testClickLoginButton" finished-at="2025-03-08T13:41:38 EET" depends-on-methods="testeautomate.TestLogin.testEnterCredentials" duration-ms="11647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickLoginButton -->
+        <test-method signature="testNavigateAfterLogin()[pri:4, instance:testeautomate.TestLogin@3e58a80e]" started-at="2025-03-08T13:41:38 EET" name="testNavigateAfterLogin" finished-at="2025-03-08T13:41:39 EET" depends-on-methods="testeautomate.TestLogin.testClickLoginButton" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateAfterLogin -->
+      </class> <!-- testeautomate.TestLogin -->
+      <class name="testeautomate.FinishOrder">
+        <test-method signature="testProceedToNextStep()[pri:15, instance:testeautomate.FinishOrder@12468a38]" started-at="2025-03-08T13:41:45 EET" name="testProceedToNextStep" finished-at="2025-03-08T13:41:50 EET" depends-on-methods="testAddFirstProductToCart" duration-ms="5306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProceedToNextStep -->
+      </class> <!-- testeautomate.FinishOrder -->
+      <class name="testeautomate.TestNavigateToCategory">
+        <test-method signature="testNavigateToCategory()[pri:10, instance:testeautomate.TestNavigateToCategory@67d48005]" started-at="2025-03-08T13:41:39 EET" name="testNavigateToCategory" finished-at="2025-03-08T13:41:40 EET" duration-ms="1261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToCategory -->
+      </class> <!-- testeautomate.TestNavigateToCategory -->
+    </test> <!-- TestCases -->
+  </suite> <!-- TestSuite -->
+</testng-results>
